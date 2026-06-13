@@ -65,6 +65,7 @@ section { padding: 80px 0; }
     display: inline-flex; justify-content: center; align-items: center; gap: 8px;
     padding: 12px 28px; border-radius: 50px; font-weight: 600; font-family: var(--font-body);
     cursor: pointer; transition: var(--transition); border: none; font-size: 1rem;
+    min-height: 48px; /* Accessible touch target size */
 }
 .btn-primary { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: var(--white); box-shadow: 0 4px 15px rgba(2, 132, 199, 0.3); }
 .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(2, 132, 199, 0.4); color: white; }
